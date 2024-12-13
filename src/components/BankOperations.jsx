@@ -122,17 +122,7 @@ function BankOperations() {
                             {bankData && (
                                 <Form onSubmit={handleUpdate}>
                                     <Row>
-                                        <Col md={6}>
-                                            <Form.Group controlId="bankName">
-                                                <Form.Label>Bank Name</Form.Label>
-                                                <Form.Control
-                                                    type="text"
-                                                    name="bankName"
-                                                    value={bankData.bankName}
-                                                    onChange={handleChange}
-                                                />
-                                            </Form.Group>
-                                        </Col>
+
                                         <Col md={6}>
                                             <Form.Group controlId="bankYear">
                                                 <Form.Label>Established Year</Form.Label>
