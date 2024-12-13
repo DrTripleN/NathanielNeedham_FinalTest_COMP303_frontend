@@ -1,0 +1,42 @@
+.nav-container {
+    position: relative;
+    z-index: 1000;
+    padding: 10px;
+    padding-top: 60px; /* Adjusted to provide space for the fixed navbar */
+}
+/* Make the navbar fixed at the top */
+.navbar {
+    position: fixed; /* Change from absolute to fixed */
+    top: 0; /* Set to 0 to position at the top */
+    background-color: #868174;
+    left: 0;
+    width: 100%;
+    z-index: 1000;  /* Ensures navbar stays on top of other content */
+    box-sizing: border-box;  /* Ensures padding and borders don't affect the overall width */
+}
+
+/* Ensure proper spacing for the form with a fixed navbar */
+
+
+/* Style for the form background */
+.translucent-form {
+    background: rgba(255, 255, 255, 0.7); /* White with 70% opacity */
+    backdrop-filter: blur(10px); /* Blur the background behind the form */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Optional border */
+    border-radius: 15px; /* Optional rounded corners */
+    padding: 30px;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+/* Optional: Style the inputs and buttons */
+input, select, button {
+    border-radius: 10px;
+}
+
+.alert {
+    text-align: center;
+}

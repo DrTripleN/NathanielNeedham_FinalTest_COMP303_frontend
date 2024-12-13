@@ -1,0 +1,36 @@
+html, body {
+    background-image: url("../images/money.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.h1-greeting{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 250px;
+}
+.h1-banklist{
+    top: 0;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.container {
+    position: absolute;
+    top: 50%; /* Position the container vertically at the center */
+    left: 50%; /* Position the container horizontally at the center */
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 1;
+    padding-top: 100px;
+    padding-bottom: 50px;/* Add padding to prevent overlap with the navbar */
+}
